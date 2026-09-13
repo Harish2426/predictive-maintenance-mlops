@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install fastapi uvicorn pandas numpy scikit-learn xgboost-cpu pytest
+          pip install fastapi uvicorn pandas numpy scikit-learn xgboost-cpu pytest httpx2
 
       - name: Run tests
         run: |
